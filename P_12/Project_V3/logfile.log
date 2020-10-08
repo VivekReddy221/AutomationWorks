@@ -1,0 +1,327 @@
+2020-09-06 10:34:00,780 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 10:35:26,194 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 10:37:09,355 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 10:37:09,359 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 10:37:41,389 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 10:37:41,389 INFO  [Log] Deleting All The Coockies 
+2020-09-06 10:37:41,500 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 10:37:41,504 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 10:37:41,508 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 10:40:12,250 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 10:40:12,255 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 10:40:58,101 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 10:40:58,101 INFO  [Log] Deleting All The Coockies 
+2020-09-06 10:40:58,395 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 10:40:58,403 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 10:40:58,411 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 10:56:41,502 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 10:56:41,507 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 10:56:52,656 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 10:56:52,656 INFO  [Log] Deleting All The Coockies 
+2020-09-06 10:56:52,733 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 10:56:52,741 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 10:56:52,745 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 10:58:35,111 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 10:58:35,677 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 10:59:28,609 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 10:59:28,609 INFO  [Log] Deleting All The Coockies 
+2020-09-06 10:59:28,779 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 10:59:28,788 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 10:59:28,791 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 10:59:36,156 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 10:59:36,849 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 10:59:42,326 INFO  [Log] Browser Closed Successfully 
+2020-09-06 11:03:03,860 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:03:03,868 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:03:09,722 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:03:09,722 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:03:09,738 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:03:09,746 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:03:09,754 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:03:11,482 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 11:03:11,527 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 11:03:11,527 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 11:03:11,543 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 11:03:11,743 INFO  [Log] Browser Closed Successfully 
+2020-09-06 11:05:01,502 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:05:01,508 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:05:13,491 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:05:13,491 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:05:14,015 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:05:14,023 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:05:14,027 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:05:20,821 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 11:05:21,581 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 11:05:21,581 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 11:05:21,695 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 11:08:07,001 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:08:07,005 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:08:13,727 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:08:13,727 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:08:13,743 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:08:13,751 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:08:13,759 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:10:01,902 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:10:01,908 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:10:12,132 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:10:12,132 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:10:12,148 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:10:12,156 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:10:12,164 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:11:02,888 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 11:11:03,290 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 11:11:03,290 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 11:11:03,346 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 11:12:31,017 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:12:31,023 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:12:39,166 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:12:39,166 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:12:39,182 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:12:39,190 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:12:39,194 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:12:43,260 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 11:12:43,273 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 11:12:43,273 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 11:12:43,273 INFO  [Log] =====> Login Into The Application 
+2020-09-06 11:12:47,930 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 11:15:49,713 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:15:49,718 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:15:57,035 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:15:57,035 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:15:57,053 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:15:57,061 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:15:57,069 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:17:27,279 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:17:27,281 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:17:55,566 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:17:55,566 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:17:55,645 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:17:55,653 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:17:55,657 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:18:11,333 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 11:18:11,363 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 11:18:11,363 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 11:18:11,363 INFO  [Log] =====> Login Into The Application 
+2020-09-06 11:18:14,458 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 11:22:35,998 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:22:36,001 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:22:43,222 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:22:43,223 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:22:43,237 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:22:43,243 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:22:43,249 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:22:54,608 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 11:22:54,622 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 11:22:54,622 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 11:22:54,623 INFO  [Log] =====> Login Into The Application 
+2020-09-06 11:22:55,515 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 11:24:10,369 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:24:10,372 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:24:15,919 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:24:15,919 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:24:17,219 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:24:17,223 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:24:17,227 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:24:32,544 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 11:24:32,556 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 11:24:32,556 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 11:24:32,557 INFO  [Log] =====> Login Into The Application 
+2020-09-06 11:24:33,415 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 11:30:23,481 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:30:23,484 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:30:31,339 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:30:31,339 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:30:31,357 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:30:31,363 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:30:31,369 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:30:37,513 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 11:30:37,529 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 11:30:37,529 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 11:30:37,529 INFO  [Log] =====> Login Into The Application 
+2020-09-06 11:30:38,261 INFO  [Log] Location//input[@id='username'] 
+2020-09-06 11:30:38,285 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 11:31:51,603 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:31:51,606 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:31:57,420 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:31:57,421 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:31:57,435 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:31:57,439 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:31:57,444 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:32:00,903 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 11:32:00,914 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 11:32:00,915 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 11:32:00,915 INFO  [Log] =====> Login Into The Application 
+2020-09-06 11:32:01,729 INFO  [Log] Location//input[@id='username'] 
+2020-09-06 11:32:01,740 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 11:32:02,253 INFO  [Log] Browser Closed Successfully 
+2020-09-06 11:38:46,047 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:38:46,050 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:38:56,217 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:38:56,217 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:38:56,233 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:38:56,238 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:38:56,242 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:38:58,972 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 11:38:58,986 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 11:38:58,987 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 11:38:58,987 INFO  [Log] =====> Login Into The Application 
+2020-09-06 11:38:59,752 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 11:38:59,938 INFO  [Log] Browser Closed Successfully 
+2020-09-06 11:43:56,444 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:43:56,649 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:45:43,248 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:45:43,253 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:45:56,944 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:45:56,944 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:45:56,972 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:45:56,981 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:45:56,985 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:46:03,483 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 11:46:03,497 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 11:46:03,497 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 11:46:03,497 INFO  [Log] =====> Login Into The Application 
+2020-09-06 11:46:08,918 INFO  [Log] =====> Entering the Data in User Name 
+2020-09-06 11:46:09,106 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 11:46:10,108 INFO  [Log] Browser Closed Successfully 
+2020-09-06 11:48:04,985 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:48:04,989 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:48:10,974 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:48:10,974 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:48:10,990 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:48:10,998 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:48:11,002 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:49:46,517 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:49:46,522 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:49:54,966 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 11:49:54,966 INFO  [Log] Deleting All The Coockies 
+2020-09-06 11:49:54,982 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 11:49:54,990 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 11:49:54,998 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 11:50:01,209 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 11:50:01,220 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 11:50:01,220 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 11:50:01,220 INFO  [Log] =====> Login Into The Application 
+2020-09-06 11:50:05,939 INFO  [Log] =====> Entering the Data in User Name 
+2020-09-06 11:50:06,087 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 11:50:06,386 INFO  [Log] Browser Closed Successfully 
+2020-09-06 11:59:27,274 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:59:27,315 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:59:27,399 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:59:27,408 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 11:59:28,150 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 11:59:28,157 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 12:00:13,656 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 12:00:13,656 INFO  [Log] Deleting All The Coockies 
+2020-09-06 12:00:13,660 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 12:00:13,660 INFO  [Log] Deleting All The Coockies 
+2020-09-06 12:00:13,744 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 12:00:13,772 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 12:00:13,756 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 12:00:13,776 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 12:00:13,884 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 12:00:13,888 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 12:00:25,974 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 12:00:25,974 INFO  [Log] Deleting All The Coockies 
+2020-09-06 12:00:28,376 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 12:00:28,386 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 12:00:28,394 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 12:00:46,631 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 12:00:46,700 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 12:00:46,700 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 12:00:46,700 INFO  [Log] =====> Login Into The Application 
+2020-09-06 12:00:46,748 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 12:00:46,761 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 12:00:46,761 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 12:00:46,761 INFO  [Log] =====> Login Into The Application 
+2020-09-06 12:00:47,153 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 12:00:47,167 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 12:00:47,167 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 12:00:47,167 INFO  [Log] =====> Login Into The Application 
+2020-09-06 12:00:53,698 INFO  [Log] =====> Entering the Data in User Name 
+2020-09-06 12:00:53,703 INFO  [Log] =====> Entering the Data in User Name 
+2020-09-06 12:00:53,725 INFO  [Log] =====> Entering the Data in User Name 
+2020-09-06 12:00:54,187 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 12:00:54,191 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 12:00:54,199 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 12:01:05,870 INFO  [Log] Browser Closed Successfully 
+2020-09-06 12:01:06,174 INFO  [Log] Browser Closed Successfully 
+2020-09-06 12:01:16,217 INFO  [Log] Browser Closed Successfully 
+2020-09-06 12:09:30,940 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 12:09:30,943 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 12:09:44,683 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 12:09:44,683 INFO  [Log] Deleting All The Coockies 
+2020-09-06 12:09:44,723 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 12:09:44,727 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 12:09:44,731 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 12:09:52,151 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 12:09:52,162 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 12:09:52,162 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 12:09:52,174 INFO  [Log] =====> Entering the Data in User Name 
+2020-09-06 12:09:57,468 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 12:09:58,679 INFO  [Log] Browser Closed Successfully 
+2020-09-06 12:13:18,407 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 12:13:18,412 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 12:13:37,820 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 12:13:37,820 INFO  [Log] Deleting All The Coockies 
+2020-09-06 12:13:37,836 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 12:13:37,844 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 12:13:37,852 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 12:13:42,298 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 12:13:42,309 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 12:13:42,309 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 12:13:42,390 INFO  [Log] =====> Entering the Data in User Name 
+2020-09-06 12:13:43,114 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 12:13:43,488 INFO  [Log] Browser Closed Successfully 
+2020-09-06 12:19:00,481 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 12:19:00,488 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 12:19:10,708 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 12:19:10,708 INFO  [Log] Deleting All The Coockies 
+2020-09-06 12:19:10,762 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 12:19:10,770 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 12:19:10,774 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 12:19:14,361 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 12:19:14,380 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 12:19:14,380 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 12:19:14,432 INFO  [Log] =====> Entering the Data in User Name 
+2020-09-06 12:19:18,225 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 12:19:18,907 INFO  [Log] Browser Closed Successfully 
+2020-09-06 12:36:16,397 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 12:36:16,428 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 12:36:23,325 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 12:36:23,325 INFO  [Log] Deleting All The Coockies 
+2020-09-06 12:36:23,352 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 12:36:23,360 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 12:36:23,364 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 12:36:26,541 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 12:36:26,553 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 12:36:26,553 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 12:36:26,553 INFO  [Log] =====> Login Into The Application 
+2020-09-06 12:36:27,545 INFO  [Log] Verifying The Element [userName] at Location =userName 
+2020-09-06 12:36:27,558 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 12:36:27,726 INFO  [Log] Browser Closed Successfully 
+2020-09-06 12:39:09,759 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 12:39:09,765 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 12:39:18,519 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 12:39:18,519 INFO  [Log] Deleting All The Coockies 
+2020-09-06 12:39:18,536 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 12:39:18,544 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 12:39:18,551 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 12:39:20,620 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 12:39:20,632 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 12:39:20,632 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 12:39:20,632 INFO  [Log] =====> Login Into The Application 
+2020-09-06 12:39:21,416 INFO  [Log] =====> userName 
+2020-09-06 12:39:21,484 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 12:39:21,740 INFO  [Log] Browser Closed Successfully 
+2020-09-06 17:25:44,613 INFO  [Log] **********************************Initiating The Chrome Browser********************************** 
+2020-09-06 17:25:44,645 INFO  [Log] Chrome Browser Is Found 
+2020-09-06 17:26:11,435 INFO  [Log] Browser successfully Stared.. 
+2020-09-06 17:26:11,435 INFO  [Log] Deleting All The Coockies 
+2020-09-06 17:26:11,472 INFO  [Log] Setting PageLoadTimeOut To 60 
+2020-09-06 17:26:11,478 INFO  [Log] Setting ImplicityTimeOut To 30 
+2020-09-06 17:26:11,483 INFO  [Log] Navigating To http://test.wavity.io 
+2020-09-06 17:26:22,550 INFO  [Log] Navigated To http://test.wavity.io Successfully 
+2020-09-06 17:26:22,598 INFO  [Log] *****************************************************WAV_001************************************* 
+2020-09-06 17:26:22,599 INFO  [Log] *****************************************************Verfing_Login_Logout************************************* 
+2020-09-06 17:26:22,845 INFO  [Log] *****************************************************Closing The Browser************************************* 
+2020-09-06 17:26:23,745 INFO  [Log] Browser Closed Successfully 
