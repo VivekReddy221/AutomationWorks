@@ -45,7 +45,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Oct 9, 2020 03:45:40 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Oct 9, 2020 10:14:02 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -60,7 +60,7 @@
 				<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -113,10 +113,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>2</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -127,10 +127,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -148,19 +148,19 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>WAVE-TC-01</span>
-						<span class='test-time'>Oct 9, 2020 03:46:06 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Oct 9, 2020 10:14:30 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 9, 2020 03:46:06 PM</span>
-	<span class='label end-time'>Oct 9, 2020 03:46:55 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 48s+808ms</span>
+	<span class='label start-time'>Oct 9, 2020 10:14:30 PM</span>
+	<span class='label end-time'>Oct 9, 2020 10:15:05 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 34s+556ms</span>
 </div>
-<div class='test-desc'>Verifying Login Functionality </div>
+<div class='test-desc'>Verifying Login & Logout Functionality </div>
 <div class='test-attributes'>
 	<div class='category-list'>
 		<span class='category label'>Group:Smoke</span>
@@ -170,12 +170,12 @@
 	</div>
 </div>
 <ul class='collapsible node-list' data-collapsible='accordion'>
-	<li class='node level-1 leaf pass' status='pass' test-id='2'>
+	<li class='node level-1 leaf fail' status='fail' test-id='2'>
 		<div class='collapsible-header'>
 			<div class='node-name'>Keyword:login</div>
-			<span class='node-time'>Oct 9, 2020 03:46:06 PM</span>
-			&middot; <span class='node-duration'>0h 0m 6s+986ms</span>
-			<span class='test-status right pass'>pass</span>
+			<span class='node-time'>Oct 9, 2020 10:14:30 PM</span>
+			&middot; <span class='node-duration'>0h 0m 34s+536ms</span>
+			<span class='test-status right fail'>fail</span>
 		</div>
 		<div class='collapsible-body'>
 			<div class='node-steps'>
@@ -190,7 +190,7 @@
 					<tbody>
 						<tr class='log' status='info'>
 							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>3:46:06 PM</td>
+							<td class='timestamp'>10:14:30 PM</td>
 							<td class='step-details'>
 									::::::::::::::::::::::|Login Into The Application|:::::::::::::::::::::::
 								
@@ -198,121 +198,41 @@
 						</tr>
 						<tr class='log' status='info'>
 							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>3:46:06 PM</td>
+							<td class='timestamp'>10:14:30 PM</td>
 							<td class='step-details'>
-									|||:::-Entering The Data In UserName
+									-- Entering The Data In UserName[userName] At Location [//input[@id='text-field-1']]
 								
 							</td>
 						</tr>
 						<tr class='log' status='info'>
 							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>3:46:06 PM</td>
+							<td class='timestamp'>10:14:33 PM</td>
 							<td class='step-details'>
-									Verifying The Element [userName] at Location =//input[@id='text-field-1']
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>3:46:08 PM</td>
-							<td class='step-details'>
-									Element [userName] Is Found at Location =//input[@id='text-field-1']
- Status: Succussful
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>3:46:10 PM</td>
-							<td class='step-details'>
-									Clearing The element [userName] at Location =//input[@id='text-field-1']
- Status: Succussful
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>3:46:10 PM</td>
-							<td class='step-details'>
-									Entering The Data [swethak@wavity.com] In The Element [userName] at Location =//input[@id='text-field-1']
- Status: Succussful
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>3:46:10 PM</td>
-							<td class='step-details'>
-									Succussfully Data Is Entered For An Element [userName] at Location =//input[@id='text-field-1'] With Test Data:swethak@wavity.com
- Status: Succussful
+									-- Clicking The Next Button[next] At Location [//button[.='Next']]
 								
 							</td>
 						</tr>
 						<tr class='log' status='info'>
 							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>3:46:10 PM</td>
+							<td class='timestamp'>10:14:34 PM</td>
 							<td class='step-details'>
-									|||:::-Clicking The Next Button
+									-- Entering The Data In PassWord[passWord] At Location [//input[@id='text-field-']]
 								
 							</td>
 						</tr>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>3:46:12 PM</td>
+						<tr class='log' status='fail'>
+							<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+							<td class='timestamp'>10:15:05 PM</td>
 							<td class='step-details'>
-									|||:::-Entering The Data In PassWord
-								
-							</td>
-						</tr>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>3:46:12 PM</td>
-							<td class='step-details'>
-									Verifying The Element [passWord] at Location =//input[@id='text-field-2']
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>3:46:12 PM</td>
-							<td class='step-details'>
-									Element [passWord] Is Found at Location =//input[@id='text-field-2']
- Status: Succussful
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>3:46:13 PM</td>
-							<td class='step-details'>
-									Clearing The element [passWord] at Location =//input[@id='text-field-2']
- Status: Succussful
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>3:46:13 PM</td>
-							<td class='step-details'>
-									Entering The Data [Zion@123] In The Element [passWord] at Location =//input[@id='text-field-2']
- Status: Succussful
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>3:46:13 PM</td>
-							<td class='step-details'>
-									Succussfully Data Is Entered For An Element [passWord] at Location =//input[@id='text-field-2'] With Test Data:Zion@123
- Status: Succussful
-								
-							</td>
-						</tr>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>3:46:13 PM</td>
-							<td class='step-details'>
-									|||:::-Clicking The Element Login
+									Reason For Failure: [org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='text-field-']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VICKY', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\vicky\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9ddae07f1d950fc476ad4a8312e2780e
+*** Element info: {Using=xpath, value=//input[@id='text-field-']}]
 								
 							</td>
 						</tr>
@@ -321,51 +241,37 @@
 			</div>
 		</div>
 	</li>
-	<li class='node level-1 leaf pass' status='pass' test-id='3'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Keyword:acceptCookie</div>
-			<span class='node-time'>Oct 9, 2020 03:46:15 PM</span>
-			&middot; <span class='node-duration'>0h 0m 37s+900ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>3:46:15 PM</td>
-							<td class='step-details'>
-									::::::::::::::::::::::|Accepting The Coockie|:::::::::::::::::::::::
-								
-							</td>
-						</tr>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>3:46:52 PM</td>
-							<td class='step-details'>
-									|||:::-Clicking On The Coockie
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-	<li class='node level-1 leaf pass' status='pass' test-id='4'>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>WAVE-TC-02</span>
+						<span class='test-time'>Oct 9, 2020 10:15:24 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Oct 9, 2020 10:15:24 PM</span>
+	<span class='label end-time'>Oct 9, 2020 10:15:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 31s+933ms</span>
+</div>
+<div class='test-desc'>Verifying Login Page Objects </div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>Group:Smoke</span>
+	</div>
+	<div class='author-list'>
+		<span class='author label'>AutomationEngineer:VivekReddy</span>
+	</div>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf fail' status='fail' test-id='4'>
 		<div class='collapsible-header'>
 			<div class='node-name'>Keyword:logout</div>
-			<span class='node-time'>Oct 9, 2020 03:46:54 PM</span>
-			&middot; <span class='node-duration'>0h 0m 1s+315ms</span>
-			<span class='test-status right pass'>pass</span>
+			<span class='node-time'>Oct 9, 2020 10:15:24 PM</span>
+			&middot; <span class='node-duration'>0h 0m 31s+931ms</span>
+			<span class='test-status right fail'>fail</span>
 		</div>
 		<div class='collapsible-body'>
 			<div class='node-steps'>
@@ -380,7 +286,7 @@
 					<tbody>
 						<tr class='log' status='info'>
 							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>3:46:54 PM</td>
+							<td class='timestamp'>10:15:24 PM</td>
 							<td class='step-details'>
 									::::::::::::::::::::::|Logging Out From The Application|:::::::::::::::::::::::
 								
@@ -388,17 +294,25 @@
 						</tr>
 						<tr class='log' status='info'>
 							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>3:46:54 PM</td>
+							<td class='timestamp'>10:15:24 PM</td>
 							<td class='step-details'>
-									|||:::-Clicking On User Account
+									-- Clicking On User Account[userAccount] At Location [//div[@id='headerUserProfile']/img[@class='headerUserImage']]
 								
 							</td>
 						</tr>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>3:46:55 PM</td>
+						<tr class='log' status='fail'>
+							<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+							<td class='timestamp'>10:15:56 PM</td>
 							<td class='step-details'>
-									|||:::-Clickng On Logout
+									Reason For Failure: [org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='headerUserProfile']/img[@class='headerUserImage']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VICKY', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\vicky\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a10fd49de2ecfe5c69479e43723746e2
+*** Element info: {Using=xpath, value=//div[@id='headerUserProfile']/img[@class='headerUserImage']}]
 								
 							</td>
 						</tr>
@@ -453,13 +367,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>Group:Smoke</span>
 						<span class='category-status right'>
-						<span class='label pass'>1</span>
+						<span class='label fail'>2</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 2</span>
 							
 						</div>
 						<div class='category-tests'>
@@ -473,9 +387,14 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 9, 2020 03:46:06 PM</td>
+										<td>Oct 9, 2020 10:14:30 PM</td>
 										<td class='linked' test-id='1'>WAVE-TC-01</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
+									</tr>
+									<tr>
+										<td>Oct 9, 2020 10:15:24 PM</td>
+										<td class='linked' test-id='3'>WAVE-TC-02</td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -513,13 +432,13 @@
 					<div class='author-heading'>
 						<span class='author-name'>AutomationEngineer:VivekReddy</span>
 						<span class='author-status right'>
-						<span class='label pass'>1</span>
+						<span class='label fail'>2</span>
 						</span>
 					</div>
 					<div class='author-content hide'>
 						<div class='author-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 2</span>
 							
 						</div>
 						<div class='author-tests'>
@@ -533,9 +452,14 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 9, 2020 03:46:06 PM</td>
+										<td>Oct 9, 2020 10:14:30 PM</td>
 										<td class='linked' test-id='1'>WAVE-TC-01</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
+									</tr>
+									<tr>
+										<td>Oct 9, 2020 10:15:24 PM</td>
+										<td class='linked' test-id='3'>WAVE-TC-02</td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -559,25 +483,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>2</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>2</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 9, 2020 03:45:40 PM</div>
+					<div class='panel-lead'>Oct 9, 2020 10:14:02 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 9, 2020 03:45:40 PM</div>
+			 		<div class='panel-lead'>Oct 9, 2020 10:14:02 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -620,11 +544,11 @@
 						</tr>
 						<tr>
 							<td>Group:Smoke</td>
-							<td>1</td>
 							<td>0</td>
+							<td>2</td>
 							<td>0</td>
 							<td>
-									100%
+									0%
 							</td>
 						</tr>
 					</table>
@@ -638,23 +562,23 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-				passParent: 1,
-				failParent: 0,
+				passParent: 0,
+				failParent: 2,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 2,
 				
-				passChild: 3,
-				failChild: 0,
+				passChild: 0,
+				failChild: 2,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
 				debugChild: 0,
-				exceptionsChild: 0,
+				exceptionsChild: 2,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,
@@ -669,7 +593,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "WAVE-TC-01":48.808
+			        "WAVE-TC-01":34.556,"WAVE-TC-02":31.933
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/e9ccc29bd18c7914697075f44948d0913e462478/v3html/js/extent.js' type='text/javascript'></script>

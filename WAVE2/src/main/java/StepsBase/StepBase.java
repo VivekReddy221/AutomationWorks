@@ -99,7 +99,19 @@ public class StepBase
 		
 		if(action!=null && elementName!=null && testData!=null && keyword=="NO" )
 		{
-			log.EXTENT_INFO("|||:::-"+Des);
+			if(action!="dropAndDrop")
+			{
+			log.EXTENT_INFO("-- "+Des+"["+elementName+"]"+" At Location "+"["+Location+"]");
+			}
+			else if(action=="attachTheImage")
+			{
+			log.EXTENT_INFO("-- "+Des+" From The Location"+ System.getProperty("user.dir")+"\\"+TestData);
+			} 
+			else
+			{
+				log.EXTENT_INFO("-- "+Des+"["+elementName+"]"+" At Location "+"["+Location+"]");
+				log.EXTENT_INFO("-- "+"Dragging An Element ["+elementName+"] From "+Location+" To ="+Location1);
+			}
 			log._INFO("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
 			switch(action)
 			{

@@ -30,6 +30,7 @@ public class ListenEvents implements ITestListener
 		ob = new ExcelReadPack();
 		
 		log.extentInitailizer(); // Extent Report Initializer
+		log._INFO("Extent Report Initailized");
 		
 		try
 		{
@@ -51,6 +52,7 @@ public class ListenEvents implements ITestListener
 		{
 			e.printStackTrace();
 		}
+		log._INFO("All Workbooks are Initialized");
 		
 	}
 	
@@ -79,13 +81,17 @@ public class ListenEvents implements ITestListener
 	{
 		
 		gen.CloseBrowser();
+		log.EXTENT_FAIL("Reason For Failure: ["+result.getThrowable()+"]");
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) 
 	{
 		
-		gen.CloseBrowser();
+		if(gen.driver!=null)
+		{
+			gen.CloseBrowser();
+		}
 	}
 
 	@Override
@@ -95,12 +101,16 @@ public class ListenEvents implements ITestListener
 		{
 			ob.closeAllBooks();
 			xpath.closeXpathBook();
+			
+			log._INFO("All Books Are Closed");
+			
 		} 
 		catch (IOException e)
 		{
 			e.printStackTrace();
 		}
 		log.storeInReport();
+		log._INFO("Extent Report Generated and available In Reports");
 	}
 	
 }

@@ -15,7 +15,7 @@ public class Logs
 	
 	private static ExtentHtmlReporter Report;
 	private static ExtentReports extent;
-	private static ExtentTest test,test1,test2;
+	private static ExtentTest test,test1,test2,test3;
 
 	public Logs()
 	{
@@ -55,6 +55,7 @@ public class Logs
 	}
 	public void CreateTestCase(String testName,String Description)
 	{
+		test = null;
 		test = extent.createTest(testName,Description);
 		 test.assignCategory("Group:"+" Smoke");
 		 test.assignAuthor("AutomationEngineer:"+" Vivek Reddy");
@@ -62,26 +63,25 @@ public class Logs
 	}
 	public void createKeyword(String Name)
 	{
+		
 		test1=	test.createNode("Keyword:"+Name);
 	}
 	
 	public void storeInReport()
 	{
 		extent.flush();
-		System.out.print("Flusing The DATA");
+		
 	}
 	
 	public void EXTENT_INFO(String data)
 	{
+		
 		test1.log(Status.INFO,data);
 	}
-	public void EXTENT_PASS(String data)
-	{
-		test1.log(Status.PASS,data+" Status: "+"Succussful");
-	}
+	
 	public void EXTENT_FAIL(String data)
 	{
-		test1.log(Status.FAIL,data+" Status: "+"Un-Succussful");
+		test1.log(Status.FAIL,data);
 	}
-	
+
 }

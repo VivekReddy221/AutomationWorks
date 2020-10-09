@@ -124,38 +124,31 @@ public class Generics
 	{
 		
 		log._INFO("Verifying The Element ["+ElementName+"] at Location ="+Location);
-		log.EXTENT_INFO("Verifying The Element ["+ElementName+"] at Location ="+Location);
 		
 		if(VisibiltyOfElementLocated(UIElement(Location)) == true)
 		{
 			log._INFO("Element ["+ElementName+"] Is Found"+" at Location ="+Location);
-			log.EXTENT_PASS("Element ["+ElementName+"] Is Found"+" at Location ="+Location);
 			if(ElementIsEnabled(UIElement(Location))== true)
 			{
 				HighLightElement(UIElement(Location),driver);
 				
 				log._INFO("Clearing The element ["+ElementName+"] at Location ="+Location);
-				log.EXTENT_PASS("Clearing The element ["+ElementName+"] at Location ="+Location);
 				UIElement(Location).clear();
 				JavascriptExecutor js=((JavascriptExecutor)driver);
 				js.executeScript("arguments[0].value='';",UIElement(Location));
 				
 				log._INFO("Entering The Data ["+TestData+"] In The Element ["+ElementName+"] at Location ="+Location);
-				log.EXTENT_PASS("Entering The Data ["+TestData+"] In The Element ["+ElementName+"] at Location ="+Location);
 				UIElement(Location).sendKeys(TestData);
 				log._INFO("Succussfully Data Is Entered For An Element ["+ElementName+"] at Location ="+Location+" With Test Data:"+TestData);
-				log.EXTENT_PASS("Succussfully Data Is Entered For An Element ["+ElementName+"] at Location ="+Location+" With Test Data:"+TestData);
 			}	
 			else
 			{
 				log._ERROR("Element ["+ElementName+"] Is In Disable Mode at Location ="+Location);
-				log.EXTENT_FAIL("Element ["+ElementName+"] Is In Disable Mode at Location ="+Location);
 			}
 		}
 		else
 		{
 			log._ERROR("Element ["+ElementName+"] Is Not Found at Location ="+Location);
-			log.EXTENT_FAIL("Element ["+ElementName+"] Is Not Found at Location ="+Location);
 		}
 		
 	}
