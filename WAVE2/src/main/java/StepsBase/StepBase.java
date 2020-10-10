@@ -4,6 +4,7 @@ import java.awt.AWTException;
 import java.io.IOException;
 
 import Generics.Generics;
+import excel.utils.StringClsUtil;
 import report.logs.Logs;
 import specifics.SpecificType;
 import xpath.hub.XpathHub;
@@ -71,7 +72,7 @@ public class StepBase
 			{
 			if(new XpathHub().xpathGetter(elementName).contains("[$]"))
 			{
-				//Location = new StringClsUtil().ReplaceString(new XpathHub().xpathGetter(elementName),TestData);
+				Location = new StringClsUtil().ReplaceString(new XpathHub().xpathGetter(elementName),TestData);
 			}
 			else
 			{
@@ -80,7 +81,7 @@ public class StepBase
 			}
 			else
 			{
-				//	Location = new StringClsUtil().ReplaceString(new XpathHub().xpathGetter(elementName),TestData);
+				Location = new StringClsUtil().ReplaceString(new XpathHub().xpathGetter(elementName),TestData);
 					Location1 = new XpathHub().xpathGetter(elementName1);
 			}
 			}
@@ -91,10 +92,13 @@ public class StepBase
 		}
 		else
 		{
+			if(keyword=="keyword")
+			{
 			log._INFO("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
 			log._INFO("**************************************"+"Keyword"+"-"+KeywordName+" Execution Started**********************************");
 			log._INFO(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
 			log.createKeyword(KeywordName);
+			}
 		} 
 		
 		if(action!=null && elementName!=null && testData!=null && keyword=="NO" )
