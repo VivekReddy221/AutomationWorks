@@ -62,7 +62,7 @@ public class TestSuite extends StepBase
 
 	}
 	
-	@Test(enabled =true,priority = 2,description = "Creating An App")
+	@Test(enabled =false,priority = 2,description = "Creating An App")
 	public void WAVE_TC_02() throws InterruptedException, IOException, AWTException
 	{
 		TestCaseName("WAVE-TC-02","Create An App With Text Control");

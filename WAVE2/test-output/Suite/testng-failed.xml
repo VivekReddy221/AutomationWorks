@@ -8,7 +8,6 @@
     <classes>
       <class name="TestCases.Login_Logout">
         <methods>
-          <include name="Login"/>
           <include name="Login_Logout"/>
         </methods>
       </class> <!-- TestCases.Login_Logout -->
