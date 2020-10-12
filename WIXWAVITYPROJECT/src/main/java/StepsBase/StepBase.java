@@ -101,9 +101,9 @@ public class StepBase
 		
 		if(action!=null && elementName!=null && testData!=null && keyword=="NO" )
 		{
-			if(action!="dropAndDrop")
+			if(action=="input")
 			{
-			 log.EXTENT_INFO("-- "+Des+"["+elementName+"]"+" At Location "+"["+Location+"]");
+			 log.EXTENT_INFO("-- "+Des+"["+elementName+"]"+" With Test Data "+"["+TestData+"]");
 			}
 			else if(action=="attachTheImage")
 			{
@@ -113,6 +113,10 @@ public class StepBase
 			{
 				log.EXTENT_INFO("-- "+Des+"["+elementName+"]"+" At Location "+"["+Location+"]");
 				log.EXTENT_INFO("-- "+"Dragging An Element ["+elementName+"] From "+Location+" To ="+Location1);
+			}
+			else if(action=="click")
+			{
+				 log.EXTENT_INFO("-- "+Des+"["+elementName+"]");
 			}
 			
 			

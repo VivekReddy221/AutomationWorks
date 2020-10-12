@@ -85,6 +85,7 @@ public class Logs
 		i=1;
 		loop = 0;
 		innerloop = 0;
+		test2 = test1;
 	}
 	
 	public void storeInReport()
@@ -144,16 +145,19 @@ public class Logs
 		
 		return dataChanged;
 	}
-	public void LoopIndex(String data)
+	public void LoopIndex(String data,String Caption)
 	{
-		loop++;
+		loop = loop +1;
 		innerloop = 0;
-		test2 = test1.createNode("Loop"+loop+": "+data);
+		test1 = test2.createNode("Loop"+loop+": "+data);
+		test1.info(MarkupHelper.createLabel(Caption, ExtentColor.PINK));
+		test3 = test1;
 	}
 	
-	public void InnerLoopIndex(String data)
+	public void InnerLoopIndex(String data,String Caption)
 	{
 		innerloop++;
-		test3 = test2.createNode("InnerLoop"+innerloop+": "+data);
+		test1 = test3.createNode("InnerLoop"+innerloop+": "+data);
+		test1.info(MarkupHelper.createLabel(Caption, ExtentColor.PINK));
 	}
 }

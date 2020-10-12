@@ -27,7 +27,7 @@ public class Login_Logout extends StepBase
 		loginData = new ExcelReadPack().testDataReaderInCellRange("Config",3,3,5);
 		keyword("Login Into The Application","Keyword","login",loginData);
 		keyword("Accepting The Coockie","Keyword","acceptCookie");
-		/*
+		
 		testData = new ExcelReadPack().testDataReaderInCellRange("appsData",3,3,4);
 		keyword("Searching For Existing Apps and Delete If Any","Keyword","search_Delete_App",testData);
 		
@@ -35,7 +35,10 @@ public class Login_Logout extends StepBase
 		keyword("Creating Sample App To Test All The Properties","Keyword","createAnApp",appCreationData);
 		
 		addControlsData = new ExcelReadPack().testDataReaderInRow_CellRange("appsData",8,11,2,10);
-		keyword("Adding Controls To An App","Keyword","addControls_setProprties",addControlsData); */
+		keyword("Adding Controls To An App","Keyword","addControls_setProprties",addControlsData); 
+		
+		testData=  new ExcelReadPack().testDataReaderInRow_CellRange("appsData",23,25,2,5);
+		keyword("Creating The Records For Text Based Application","Keyword","addRecords",testData);
 		
 		keyword("Logging Out From The Application","Keyword","logout");
 	}

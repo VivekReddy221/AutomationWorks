@@ -45,7 +45,7 @@ public class SpecificType extends StepBase
 
 		for(int i = 0;i<count;i++)
 		{
-			log.LoopIndex("Deleting The Apps");
+			log.LoopIndex("Deleting The Apps","Deleting The App"+(i+1));
 			
 			String	xpath = new excel.utils.StringClsUtil().ReplaceString1(new XpathHub().xpathGetter("appSelect"),data[0][0]);
 			
@@ -147,6 +147,7 @@ public class SpecificType extends StepBase
 	{
 		for(int i=0;i<data.length;i++)
 		{
+			log.LoopIndex("Adding The Main Control"+(i+1)+": "+data[i][0],"Adding Sub-Control"+(i+1)+": "+data[i][1]);
 		Step("Clicking On MainControl On the App Designer","click","mainControl",data[i][0]);
 	//	Step("Verifying Sub Control is Avalibale or not","verify","subControl",data[i][1]);
 		Step("Dragging The Sub Control To App Controls Dropable Area","dragAndDrop","subControl","controlsDrop",data[i][1]);
@@ -201,6 +202,7 @@ public class SpecificType extends StepBase
 	{
 		for(int i=0;i<data.length;i++)
 		{
+			log.LoopIndex("Adding The Records", "Data Inputting In The Record"+(i+1));
 			new Generics().specificWait(new XpathHub().xpathGetter("addRecord"),30);
 			Step("Clicking On New Button In App Records List page","click","addRecord");
 			
