@@ -45,7 +45,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Oct 12, 2020 02:04:15 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Oct 14, 2020 06:59:37 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -61,6 +61,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -113,10 +114,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -127,10 +128,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>12</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='91.667%'><span class='strong'>11</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='8.333%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -148,1083 +149,18 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>WAVE-TC-01</span>
-						<span class='test-time'>Oct 12, 2020 02:05:04 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-name'>WAVE-APPS-TC-01</span>
+						<span class='test-time'>Oct 14, 2020 07:00:21 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 02:05:04 PM</span>
-	<span class='label end-time'>Oct 12, 2020 02:10:09 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 5m 5s+651ms</span>
+	<span class='label start-time'>Oct 14, 2020 07:00:21 PM</span>
+	<span class='label end-time'>Oct 14, 2020 07:03:18 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 2m 57s+25ms</span>
 </div>
-<div class='test-desc'>Verifying Login Functionality </div>
-<div class='test-attributes'>
-	<div class='category-list'>
-		<span class='category label'>Group:Smoke</span>
-	</div>
-	<div class='author-list'>
-		<span class='author label'>AutomationEngineer:VivekReddy</span>
-	</div>
-</div>
-<ul class='collapsible node-list' data-collapsible='accordion'>
-	<li class='node level-1 leaf pass' status='pass' test-id='2'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Keyword:login</div>
-			<span class='node-time'>Oct 12, 2020 02:05:04 PM</span>
-			&middot; <span class='node-duration'>0h 0m 17s+896ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:05:04 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>|Login Into The Application|</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:05:04 PM</td>
-							<td class='step-details'>
-									Step: -- Verfiying The Login Card[loginCard] At Location [//div[contains(@class,'card shadow')]]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:05:11 PM</td>
-							<td class='step-details'>
-									Step: -- Verfiying The Wavity Logo[logo] At Location [//div[contains(@class,'logo-wrapper')]]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:05:12 PM</td>
-							<td class='step-details'>
-									Step: -- Entering The Data In UserName[userName] At Location [//input[@id='text-field-1']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:05:14 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking The Next Button[next] At Location [//button[.='Next']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:05:16 PM</td>
-							<td class='step-details'>
-									Step: -- Verfiying The Login Card[loginCard] At Location [//div[contains(@class,'card shadow')]]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:05:17 PM</td>
-							<td class='step-details'>
-									Step: -- Verfiying The Wavity Logo[logo] At Location [//div[contains(@class,'logo-wrapper')]]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:05:18 PM</td>
-							<td class='step-details'>
-									Step: -- Entering The Data In PassWord[passWord] At Location [//input[@id='text-field-2']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:05:19 PM</td>
-							<td class='step-details'>
-									Step: -- Verfiying Forgot Password Link[forgotPassword] At Location [//a[.='Forgot password?']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:05:20 PM</td>
-							<td class='step-details'>
-									Step: -- Verfiying Back Button[back] At Location [//button[.='Back']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:05:22 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking The Element Login[continue] At Location [//button[.='Continue']]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-	<li class='node level-1 leaf pass' status='pass' test-id='3'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Keyword:acceptCookie</div>
-			<span class='node-time'>Oct 12, 2020 02:05:23 PM</span>
-			&middot; <span class='node-duration'>0h 2m 6s+86ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:05:23 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>|Accepting The Coockie|</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:29 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On The Coockie[acceptCookie] At Location [//a[@id='oneteam-cookie-confirmation-button']]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-	<li class='node level-1  pass' status='pass' test-id='4'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Keyword:search_Delete_App</div>
-			<span class='node-time'>Oct 12, 2020 02:07:30 PM</span>
-			&middot; <span class='node-duration'>0h 0m 10s+713ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:07:30 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>|Searching For Existing Apps and Delete If Any|</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:30 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On Home Menu Button[homeMenu] At Location [//button[contains(@class,'ot-menu-toggler')]]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:32 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On Apps[apps] At Location [//div[@id='ot-menu']//a[@href='#application/list']|//a[@href='#application/list']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:33 PM</td>
-							<td class='step-details'>
-									Step: -- Searching For An app is exist already or not[appSearch] At Location [//div[@class='otSearchBox']//input]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-		<ul class='collapsible node-list' data-collapsible='accordion'>
-	<li class='node level-2 leaf pass' status='pass' test-id='5'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Loop1: Deleting The Apps</div>
-			<span class='node-time'>Oct 12, 2020 02:07:38 PM</span>
-			&middot; <span class='node-duration'>0h 0m 3s+235ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:07:38 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>Deleting The App1</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:38 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On Three Dot Menu App To Delete[//div[@class='applicationAppList']//div[@class='applicationItemGrid'][1]//div[@class='appCaption']//a[contains(text(),'Wavity Employee Profile')]//ancestor::div[@class='applicationItemGrid']//div[@class='applicationMenuOptionContainer']] At Location [//div[@class='applicationAppList']//div[@class='applicationItemGrid'][1]//div[@class='appCaption']//a[contains(text(),'Wavity Employee Profile')]//ancestor::div[@class='applicationItemGrid']//div[@class='applicationMenuOptionContainer']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:40 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On Delete Option[deleteApp] At Location [//a[.='Delete']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:41 PM</td>
-							<td class='step-details'>
-									Step: -- Accepting The App Deletion pop Up[deleteAppAccept] At Location [//button[.='Yes']]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-		</ul>
-	</li>
-	<li class='node level-1 leaf pass' status='pass' test-id='6'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Keyword:createAnApp</div>
-			<span class='node-time'>Oct 12, 2020 02:07:50 PM</span>
-			&middot; <span class='node-duration'>0h 0m 24s+129ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:07:50 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>|Creating Sample App To Test All The Properties|</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:50 PM</td>
-							<td class='step-details'>
-									Step: -- Verifying W-Image On The HomePage[wImage1] At Location [//img[@src='oneteamV2/images/logo/wavity_logo_white_text.png']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:51 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking on W-Image On The HomePage[wImage1] At Location [//img[@src='oneteamV2/images/logo/wavity_logo_white_text.png']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:53 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On Apps[apps] At Location [//div[@id='ot-menu']//a[@href='#application/list']|//a[@href='#application/list']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:54 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On Create New App Link[createNewApp] At Location [//span[.='Create new App']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:55 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On Create Button[createButton] At Location [//button[contains(@class,'btn appDesignerCreateBtn')]]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:56 PM</td>
-							<td class='step-details'>
-									Step: -- Verify App Name text[appName] At Location [//div[.='App name']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:07:57 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On Choose Icon[chooseIcon] At Location [//button[.='Choose icon']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:10 PM</td>
-							<td class='step-details'>
-									Step: -- Entering App Name[enterAppName] At Location [//input[@id='appName']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:12 PM</td>
-							<td class='step-details'>
-									Step: -- Entering App Description[appDescription] At Location [//textarea[@id='appDescription']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:13 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking on App Type[selectAppType] At Location [//select[@class='appTypeSelect']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:14 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On Create Button[clickCreateApp] At Location [//div[@class='modal-content']//button[.='Create']]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-	<li class='node level-1  pass' status='pass' test-id='7'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Keyword:addControls_setProprties</div>
-			<span class='node-time'>Oct 12, 2020 02:08:15 PM</span>
-			&middot; <span class='node-duration'>0h 0m 54s+932ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:08:15 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>|Adding Controls To An App|</span>
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-		<ul class='collapsible node-list' data-collapsible='accordion'>
-	<li class='node level-2 leaf pass' status='pass' test-id='8'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Loop1: Adding The Main Control1: Text</div>
-			<span class='node-time'>Oct 12, 2020 02:08:15 PM</span>
-			&middot; <span class='node-duration'>0h 0m 17s+270ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:08:15 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>Adding Sub-Control1: Plain</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:15 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On MainControl On the App Designer[mainControl] At Location [//div[@class='dataControlMenuItems']//span[.='Text']//parent::div]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:30 PM</td>
-							<td class='step-details'>
-									Step: -- Dragging The Sub Control To App Controls Dropable Area[subControl] At Location [//div[contains(@class,'appDesignerSubMenuItemListContainer')]//span[.='Plain']//parent::div]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:31 PM</td>
-							<td class='step-details'>
-									Step: -- Entering App Control Label Name[//div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][1]//input[@placeholder='Label'] | //div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][1]//input[@placeholder='Enter your text']] At Location [//div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][1]//input[@placeholder='Label'] | //div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][1]//input[@placeholder='Enter your text']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:33 PM</td>
-							<td class='step-details'>
-									Step: -- Selecting The Required property[//div[contains(@class,'appDesignerRightPanel')]//input[@id='required']] At Location [//div[contains(@class,'appDesignerRightPanel')]//input[@id='required']]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-	<li class='node level-2 leaf pass' status='pass' test-id='9'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Loop2: Adding The Main Control2: Numbers</div>
-			<span class='node-time'>Oct 12, 2020 02:08:34 PM</span>
-			&middot; <span class='node-duration'>0h 0m 5s+85ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:08:34 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>Adding Sub-Control2: Number</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:34 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On MainControl On the App Designer[mainControl] At Location [//div[@class='dataControlMenuItems']//span[.='Numbers']//parent::div]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:35 PM</td>
-							<td class='step-details'>
-									Step: -- Dragging The Sub Control To App Controls Dropable Area[subControl] At Location [//div[contains(@class,'appDesignerSubMenuItemListContainer')]//span[.='Number']//parent::div]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:36 PM</td>
-							<td class='step-details'>
-									Step: -- Entering App Control Label Name[//div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][2]//input[@placeholder='Label'] | //div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][2]//input[@placeholder='Enter your text']] At Location [//div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][2]//input[@placeholder='Label'] | //div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][2]//input[@placeholder='Enter your text']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:38 PM</td>
-							<td class='step-details'>
-									Step: -- Selecting The Required property[//div[contains(@class,'appDesignerRightPanel')]//input[@id='required']] At Location [//div[contains(@class,'appDesignerRightPanel')]//input[@id='required']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:39 PM</td>
-							<td class='step-details'>
-									Step: -- Inputing The Help Message property[//div[contains(@class,'appDesignerRightPanel')]//input[@id='hint']] At Location [//div[contains(@class,'appDesignerRightPanel')]//input[@id='hint']]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-	<li class='node level-2 leaf pass' status='pass' test-id='10'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Loop3: Adding The Main Control3: Text</div>
-			<span class='node-time'>Oct 12, 2020 02:08:40 PM</span>
-			&middot; <span class='node-duration'>0h 0m 3s+975ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:08:40 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>Adding Sub-Control3: Plain</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:40 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On MainControl On the App Designer[mainControl] At Location [//div[@class='dataControlMenuItems']//span[.='Text']//parent::div]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:41 PM</td>
-							<td class='step-details'>
-									Step: -- Dragging The Sub Control To App Controls Dropable Area[subControl] At Location [//div[contains(@class,'appDesignerSubMenuItemListContainer')]//span[.='Plain']//parent::div]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:43 PM</td>
-							<td class='step-details'>
-									Step: -- Entering App Control Label Name[//div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][3]//input[@placeholder='Label'] | //div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][3]//input[@placeholder='Enter your text']] At Location [//div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][3]//input[@placeholder='Label'] | //div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][3]//input[@placeholder='Enter your text']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:44 PM</td>
-							<td class='step-details'>
-									Step: -- Selecting The Required property[//div[contains(@class,'appDesignerRightPanel')]//input[@id='required']] At Location [//div[contains(@class,'appDesignerRightPanel')]//input[@id='required']]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-	<li class='node level-2 leaf pass' status='pass' test-id='11'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Loop4: Adding The Main Control4: Text</div>
-			<span class='node-time'>Oct 12, 2020 02:08:45 PM</span>
-			&middot; <span class='node-duration'>0h 0m 24s+925ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:08:45 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>Adding Sub-Control4: Plain</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:45 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On MainControl On the App Designer[mainControl] At Location [//div[@class='dataControlMenuItems']//span[.='Text']//parent::div]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:47 PM</td>
-							<td class='step-details'>
-									Step: -- Dragging The Sub Control To App Controls Dropable Area[subControl] At Location [//div[contains(@class,'appDesignerSubMenuItemListContainer')]//span[.='Plain']//parent::div]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:48 PM</td>
-							<td class='step-details'>
-									Step: -- Entering App Control Label Name[//div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][4]//input[@placeholder='Label'] | //div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][4]//input[@placeholder='Enter your text']] At Location [//div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][4]//input[@placeholder='Label'] | //div[contains(@class,'droppableContent pageDroppableContent ui-sortable')]//child::div[contains(@class,'appDesignerDataControlContainer')][4]//input[@placeholder='Enter your text']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:49 PM</td>
-							<td class='step-details'>
-									Step: -- Selecting The Required property[//div[contains(@class,'appDesignerRightPanel')]//input[@id='required']] At Location [//div[contains(@class,'appDesignerRightPanel')]//input[@id='required']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:51 PM</td>
-							<td class='step-details'>
-									Step: -- Inputing The Help Message property[//div[contains(@class,'appDesignerRightPanel')]//input[@id='hint']] At Location [//div[contains(@class,'appDesignerRightPanel')]//input[@id='hint']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:52 PM</td>
-							<td class='step-details'>
-									Step: -- Saving An Application[saveApp] At Location [//button[contains(@class,'appDesignerSaveBtn')]]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:08:58 PM</td>
-							<td class='step-details'>
-									Step: -- Verifying App Inactivation Message Available or Not[notActivation] At Location [//span[.='This application has not been activated']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:06 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On ThreeDot Menu To Activate The app[threeDotMenu] At Location [//div[contains(@class,' threedotMenuOptionContainer')]]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:07 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking on Active Button[activeApp] At Location [//div[contains(@class,'applicationMenuOptions')]//a[.='Activate']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:10 PM</td>
-							<td class='step-details'>
-									Step: -- Activating The App[activateApp] At Location [//div[@id='applicationSettingsModal']//button[@class='appSaveBtn activateAppBtn']]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-		</ul>
-	</li>
-	<li class='node level-1  pass' status='pass' test-id='12'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Keyword:addRecords</div>
-			<span class='node-time'>Oct 12, 2020 02:09:17 PM</span>
-			&middot; <span class='node-duration'>0h 0m 50s+458ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:09:17 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>|Creating The Records For Text Based Application|</span>
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-		<ul class='collapsible node-list' data-collapsible='accordion'>
-	<li class='node level-2 leaf pass' status='pass' test-id='13'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Loop1: Adding The Records</div>
-			<span class='node-time'>Oct 12, 2020 02:09:17 PM</span>
-			&middot; <span class='node-duration'>0h 0m 14s+377ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:09:17 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>Data Inputting In The Record1</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:17 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On New Button In App Records List page[addRecord] At Location [//div[contains(@class,'recordCreateBtn')]//button[contains(@class,'newRecordCreate')]]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:20 PM</td>
-							<td class='step-details'>
-									Step: -- Inputting The Data in control1[//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][1]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input] At Location [//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][1]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:23 PM</td>
-							<td class='step-details'>
-									Step: -- Inputting The Data in control2[//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][2]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input] At Location [//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][2]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:26 PM</td>
-							<td class='step-details'>
-									Step: -- Inputting The Data in control3[//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][3]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input] At Location [//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][3]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:30 PM</td>
-							<td class='step-details'>
-									Step: -- Inputting The Data in control4[//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][4]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input] At Location [//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][4]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:31 PM</td>
-							<td class='step-details'>
-									Step: -- Saving The Record[recordSave] At Location [//button[contains(@class,'ot-btn-save-appRecord')]]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-	<li class='node level-2 leaf pass' status='pass' test-id='14'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Loop2: Adding The Records</div>
-			<span class='node-time'>Oct 12, 2020 02:09:32 PM</span>
-			&middot; <span class='node-duration'>0h 0m 16s+698ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:09:32 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>Data Inputting In The Record2</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:35 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On New Button In App Records List page[addRecord] At Location [//div[contains(@class,'recordCreateBtn')]//button[contains(@class,'newRecordCreate')]]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:38 PM</td>
-							<td class='step-details'>
-									Step: -- Inputting The Data in control1[//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][1]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input] At Location [//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][1]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:41 PM</td>
-							<td class='step-details'>
-									Step: -- Inputting The Data in control2[//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][2]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input] At Location [//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][2]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:44 PM</td>
-							<td class='step-details'>
-									Step: -- Inputting The Data in control3[//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][3]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input] At Location [//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][3]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:48 PM</td>
-							<td class='step-details'>
-									Step: -- Inputting The Data in control4[//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][4]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input] At Location [//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][4]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:49 PM</td>
-							<td class='step-details'>
-									Step: -- Saving The Record[recordSave] At Location [//button[contains(@class,'ot-btn-save-appRecord')]]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-	<li class='node level-2 leaf pass' status='pass' test-id='15'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Loop3: Adding The Records</div>
-			<span class='node-time'>Oct 12, 2020 02:09:50 PM</span>
-			&middot; <span class='node-duration'>0h 0m 17s+75ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:09:50 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>Data Inputting In The Record3</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:53 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On New Button In App Records List page[addRecord] At Location [//div[contains(@class,'recordCreateBtn')]//button[contains(@class,'newRecordCreate')]]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:56 PM</td>
-							<td class='step-details'>
-									Step: -- Inputting The Data in control1[//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][1]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input] At Location [//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][1]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:09:59 PM</td>
-							<td class='step-details'>
-									Step: -- Inputting The Data in control2[//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][2]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input] At Location [//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][2]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:10:03 PM</td>
-							<td class='step-details'>
-									Step: -- Inputting The Data in control3[//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][3]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input] At Location [//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][3]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:10:06 PM</td>
-							<td class='step-details'>
-									Step: -- Inputting The Data in control4[//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][4]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input] At Location [//div[@class='appRecordPageContent']//div[contains(@class,'appRecordDataControlMainContainer')][4]//div[@class='appRecordDataControlContainer']//div[contains(@class,'appRecord')]//input]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:10:07 PM</td>
-							<td class='step-details'>
-									Step: -- Saving The Record[recordSave] At Location [//button[contains(@class,'ot-btn-save-appRecord')]]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-		</ul>
-	</li>
-	<li class='node level-1 leaf pass' status='pass' test-id='16'>
-		<div class='collapsible-header'>
-			<div class='node-name'>Keyword:logout</div>
-			<span class='node-time'>Oct 12, 2020 02:10:08 PM</span>
-			&middot; <span class='node-duration'>0h 0m 1s+150ms</span>
-			<span class='test-status right pass'>pass</span>
-		</div>
-		<div class='collapsible-body'>
-			<div class='node-steps'>
-				<table class='bordered table-results'>
-					<thead>
-						<tr>
-							<th>Status</th>
-							<th>Timestamp</th>
-							<th>Details</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class='log' status='info'>
-							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>2:10:08 PM</td>
-							<td class='step-details'>
-									<span class='badge white-text pink'>|Logging Out From The Application|</span>
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:10:08 PM</td>
-							<td class='step-details'>
-									Step: -- Clicking On User Account[userAccount] At Location [//div[@id='headerUserProfile']/img[@class='headerUserImage']]
-								
-							</td>
-						</tr>
-						<tr class='log' status='pass'>
-							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>2:10:09 PM</td>
-							<td class='step-details'>
-									Step: -- Clickng On Logout[logout] At Location [//a[.='Sign out']]
-								
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</li>
-</ul>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='17'>
-					<div class='test-heading'>
-						<span class='test-name'>WAVE-TC-02</span>
-						<span class='test-time'>Oct 12, 2020 02:10:51 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Oct 12, 2020 02:10:51 PM</span>
-	<span class='label end-time'>Oct 12, 2020 02:10:54 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+592ms</span>
-</div>
-<div class='test-desc'>Verifying Login Page Objects </div>
 <div class='test-attributes'>
 	<div class='category-list'>
 		<span class='category label'>Group:Smoke</span>
@@ -1243,25 +179,1020 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>2:10:51 PM</td>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>7:00:21 PM</td>
 				<td class='step-details'>
-						Step: -- Verfiying The Login Card[loginCard] At Location [//div[contains(@class,'card shadow')]]
-					
-				</td>
-			</tr>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>2:10:54 PM</td>
-				<td class='step-details'>
-						Step: -- Verfiying The Wavity Logo[logo] At Location [//div[contains(@class,'logo-wrapper')]]
+						<textarea disabled class='code-block'>WAVE-APPS-TC-01: Creating An App With Numbers Control</textarea>
 					
 				</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='2'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Keyword: login</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:00:21 PM</span>
+			&middot; <span class='node-duration'>0h 0m 12s+760ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:00:21 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>|Login Into The Application|</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:00:21 PM</td>
+							<td class='step-details'>
+									Step: -- Verfiying The Login Card[loginCard]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:00:25 PM</td>
+							<td class='step-details'>
+									Step: -- Verfiying The Wavity Logo[logo]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:00:26 PM</td>
+							<td class='step-details'>
+									Step: -- Entering The Data In UserName[userName] With Test Data [swethak@wavity.com]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:00:27 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking The Next Button[next]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:00:28 PM</td>
+							<td class='step-details'>
+									Step: -- Verfiying The Login Card[loginCard]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:00:29 PM</td>
+							<td class='step-details'>
+									Step: -- Verfiying The Wavity Logo[logo]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:00:31 PM</td>
+							<td class='step-details'>
+									Step: -- Entering The Data In PassWord[passWord] With Test Data [Zion@123]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:00:32 PM</td>
+							<td class='step-details'>
+									Step: -- Verfiying Forgot Password Link[forgotPassword]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:00:33 PM</td>
+							<td class='step-details'>
+									Step: -- Verfiying Back Button[back]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:00:34 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking The Element Login[continue]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='3'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Keyword: acceptCookie</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:00:35 PM</span>
+			&middot; <span class='node-duration'>0h 0m 55s+402ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:00:35 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>|Accepting The Coockie|</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:31 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On The Coockie[acceptCookie]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1  pass' status='pass' test-id='4'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Keyword: search_Delete_App</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:01:32 PM</span>
+			&middot; <span class='node-duration'>0h 0m 8s+264ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:01:32 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>|Searching For Existing Apps and Delete If Any|</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:32 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On Home Menu Button[homeMenu]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:33 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On Apps[apps]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:35 PM</td>
+							<td class='step-details'>
+									Step: -- Searching For An app is exist already or not[appSearch] With Test Data [Wavity Employee Profile]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-2 leaf pass' status='pass' test-id='5'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Loop1: Deleting The Apps</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:01:37 PM</span>
+			&middot; <span class='node-duration'>0h 0m 2s+721ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:01:37 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>Deleting The App1</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:37 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On Three Dot Menu App To Delete[appSelect]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:39 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On Delete Option[deleteApp]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:40 PM</td>
+							<td class='step-details'>
+									Step: -- Accepting The App Deletion pop Up[deleteAppAccept]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+		</ul>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='6'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Keyword: createAnApp</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:01:49 PM</span>
+			&middot; <span class='node-duration'>0h 0m 12s+220ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:01:49 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>|Creating Sample App To Test All The Properties|</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:49 PM</td>
+							<td class='step-details'>
+									Step: -- Verifying W-Image On The HomePage[wImage1]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:51 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking on W-Image On The HomePage[wImage1]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:52 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On Apps[apps]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:53 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On Create New App Link[createNewApp]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:55 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On Create Button[createButton]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:56 PM</td>
+							<td class='step-details'>
+									Step: -- Verify App Name text[appName]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:57 PM</td>
+							<td class='step-details'>
+									Step: -- Entering App Name[enterAppName] With Test Data [Wavity Employee Profile_Wed_Oct_14_19_01_57_IST_2020]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:01:59 PM</td>
+							<td class='step-details'>
+									Step: -- Entering App Description[appDescription] With Test Data [Creating An App with Text Control]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:02 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On Create Button[clickCreateApp]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1  pass' status='pass' test-id='7'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Keyword: addControls_setProprties</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:02:03 PM</span>
+			&middot; <span class='node-duration'>0h 0m 21s+258ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:02:03 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>|Adding Controls To An App|</span>
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-2  pass' status='pass' test-id='8'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Loop1: Adding The Main Control1: Numbers</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:02:03 PM</span>
+			&middot; <span class='node-duration'>0h 0m 6s+28ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:02:03 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>Adding Sub-Control: Number</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:03 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On MainControl On the App Designer[mainControl]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:06 PM</td>
+							<td class='step-details'>
+									Step: -- Dragging An Element [subControl] To [controlsDrop]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:08 PM</td>
+							<td class='step-details'>
+									Step: -- Entering App Control Label Name[controlLabel] With Test Data [Batch ID]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-3 leaf pass' status='pass' test-id='9'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>InnerLoop1: Adding The Property: Required</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:02:09 PM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+2ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:02:09 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>Property: Required</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:09 PM</td>
+							<td class='step-details'>
+									Step: -- Selecting The Requiredproperty[[selectProperty:Required]]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+		</ul>
+	</li>
+	<li class='node level-2 leaf pass' status='pass' test-id='10'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Loop2: Adding The Main Control2: Numbers</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:02:10 PM</span>
+			&middot; <span class='node-duration'>0h 0m 2s+544ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:02:10 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>Adding Sub-Control: Number</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:10 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On MainControl On the App Designer[mainControl]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:11 PM</td>
+							<td class='step-details'>
+									Step: -- Dragging An Element [subControl] To [controlsDrop]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:13 PM</td>
+							<td class='step-details'>
+									Step: -- Entering App Control Label Name[controlLabel] With Test Data [User Code]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-2  pass' status='pass' test-id='11'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Loop3: Adding The Main Control3: Numbers</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:02:14 PM</span>
+			&middot; <span class='node-duration'>0h 0m 3s+913ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:02:14 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>Adding Sub-Control: Financial</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:14 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On MainControl On the App Designer[mainControl]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:15 PM</td>
+							<td class='step-details'>
+									Step: -- Dragging An Element [subControl] To [controlsDrop]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:16 PM</td>
+							<td class='step-details'>
+									Step: -- Entering App Control Label Name[controlLabel] With Test Data [Amount Paid]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-3 leaf pass' status='pass' test-id='12'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>InnerLoop1: Adding The Property: Required</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:02:18 PM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+2ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:02:18 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>Property: Required</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:18 PM</td>
+							<td class='step-details'>
+									Step: -- Selecting The Requiredproperty[[selectProperty:Required]]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+		</ul>
+	</li>
+	<li class='node level-2  pass' status='pass' test-id='13'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Loop4: Adding The Main Control4: Numbers</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:02:19 PM</span>
+			&middot; <span class='node-duration'>0h 0m 5s+148ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:02:19 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>Adding Sub-Control: Financial</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:19 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On MainControl On the App Designer[mainControl]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:20 PM</td>
+							<td class='step-details'>
+									Step: -- Dragging An Element [subControl] To [controlsDrop]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:21 PM</td>
+							<td class='step-details'>
+									Step: -- Entering App Control Label Name[controlLabel] With Test Data [Pending Amount]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-3 leaf pass' status='pass' test-id='14'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>InnerLoop1: Adding The Property: Required</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:02:23 PM</span>
+			&middot; <span class='node-duration'>0h 0m 1s+151ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:02:23 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>Property: Required</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:23 PM</td>
+							<td class='step-details'>
+									Step: -- Selecting The Requiredproperty[[selectProperty:Required]]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:24 PM</td>
+							<td class='step-details'>
+									Step: -- Saving An Application[saveApp]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+		</ul>
+	</li>
+		</ul>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='15'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Keyword: activateApp</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:02:30 PM</span>
+			&middot; <span class='node-duration'>0h 0m 10s+411ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:02:30 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>|Activating The App|</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:30 PM</td>
+							<td class='step-details'>
+									Step: -- Verifying App Inactivation Message Available or Not[notActivation]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:36 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On ThreeDot Menu To Activate The app[threeDotMenu]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:37 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking on Active Button[activeApp]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:41 PM</td>
+							<td class='step-details'>
+									Step: -- Activating The App[activateApp]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1  fail' status='fail' test-id='16'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Keyword: addRecords</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:02:47 PM</span>
+			&middot; <span class='node-duration'>0h 0m 31s+350ms</span>
+			<span class='test-status right fail'>fail</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:02:47 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>|Adding Records To The Application|</span>
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-2 leaf pass' status='pass' test-id='17'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Loop1: Adding The Records</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:02:47 PM</span>
+			&middot; <span class='node-duration'>0h 0m 1s+239ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:02:47 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>Data Insertion In The Record1</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:47 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On New Button In App Records List page[addRecord]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:02:48 PM</td>
+							<td class='step-details'>
+									Step: -- Saving The Record[recordSave]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-2 leaf pass' status='pass' test-id='18'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Loop2: Adding The Records</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:02:49 PM</span>
+			&middot; <span class='node-duration'>0h 0m 23s+806ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:02:49 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>Data Insertion In The Record2</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:03:12 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On New Button In App Records List page[addRecord]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:03:13 PM</td>
+							<td class='step-details'>
+									Step: -- Saving The Record[recordSave]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-2 leaf fail' status='fail' test-id='19'>
+		<div class='collapsible-header'>
+			<div class='node-name'><strong style='color:Lime;'>Loop3: Adding The Records</strong></div>
+			<span class='node-time'>Oct 14, 2020 07:03:14 PM</span>
+			&middot; <span class='node-duration'>0h 0m 3s+990ms</span>
+			<span class='test-status right fail'>fail</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>7:03:14 PM</td>
+							<td class='step-details'>
+									<span class='badge white-text pink'>Data Insertion In The Record3</span>
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:03:16 PM</td>
+							<td class='step-details'>
+									Step: -- Clicking On New Button In App Records List page[addRecord]
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>7:03:17 PM</td>
+							<td class='step-details'>
+									Step: -- Saving The Record[recordSave]
+								
+							</td>
+						</tr>
+						<tr class='log' status='fail'>
+							<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+							<td class='timestamp'>7:03:18 PM</td>
+							<td class='step-details'>
+									<br /><br />Step: -- Saving The Record[recordSave] Is Failed <br/><br />Reason For Failure: [org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VICKY', ip: '192.168.43.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\vicky\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49774}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b16e126c0e388165128d16a8fde7002a]
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+		</ul>
+	</li>
+</ul>
 					</div>
 				</li>
 			</ul>
@@ -1307,13 +1238,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>Group:Smoke</span>
 						<span class='category-status right'>
-						<span class='label pass'>2</span>
+						<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 2</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 						<div class='category-tests'>
@@ -1327,14 +1258,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 12, 2020 02:05:04 PM</td>
-										<td class='linked' test-id='1'>WAVE-TC-01</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 02:10:51 PM</td>
-										<td class='linked' test-id='17'>WAVE-TC-02</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td>Oct 14, 2020 07:00:21 PM</td>
+										<td class='linked' test-id='1'>WAVE-APPS-TC-01</td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -1372,13 +1298,13 @@
 					<div class='author-heading'>
 						<span class='author-name'>AutomationEngineer:VivekReddy</span>
 						<span class='author-status right'>
-						<span class='label pass'>2</span>
+						<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='author-content hide'>
 						<div class='author-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 2</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 						<div class='author-tests'>
@@ -1392,14 +1318,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 12, 2020 02:05:04 PM</td>
-										<td class='linked' test-id='1'>WAVE-TC-01</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Oct 12, 2020 02:10:51 PM</td>
-										<td class='linked' test-id='17'>WAVE-TC-02</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td>Oct 14, 2020 07:00:21 PM</td>
+										<td class='linked' test-id='1'>WAVE-APPS-TC-01</td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -1423,7 +1344,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -1435,13 +1356,13 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 12, 2020 02:04:15 PM</div>
+					<div class='panel-lead'>Oct 14, 2020 06:59:37 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 12, 2020 02:04:15 PM</div>
+			 		<div class='panel-lead'>Oct 14, 2020 06:59:37 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -1484,11 +1405,11 @@
 						</tr>
 						<tr>
 							<td>Group:Smoke</td>
-							<td>2</td>
 							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 							<td>
-									100%
+									0%
 							</td>
 						</tr>
 					</table>
@@ -1502,23 +1423,23 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-				passParent: 2,
-				failParent: 0,
+				passParent: 0,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				
-				passChild: 12,
-				failChild: 0,
+				passChild: 11,
+				failChild: 1,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
 				debugChild: 0,
-				exceptionsChild: 0,
+				exceptionsChild: 1,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,
@@ -1533,7 +1454,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "WAVE-TC-01":305.651,"WAVE-TC-02":2.592
+			        "WAVE-APPS-TC-01":177.025
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/e9ccc29bd18c7914697075f44948d0913e462478/v3html/js/extent.js' type='text/javascript'></script>

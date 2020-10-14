@@ -69,11 +69,11 @@ public class Logs
 	}
 	public void CreateTestCase(String testName,String Description)
 	{
-		test = extent.createTest(testName,Description);
+		test = extent.createTest(testName," ");
 		 test.assignCategory("Group:"+" Smoke");
 		 test.assignAuthor("AutomationEngineer:"+" Vivek Reddy");
 		 test.assignDevice("OS:"+ " Windows");
-		 
+		 test.info(MarkupHelper.createCodeBlock(testName+": "+ Description));
 		 test1 = null;
 		 i=0;
 		 
@@ -81,7 +81,7 @@ public class Logs
 	public void createKeyword(String Name)
 	{
 		
-		test1=	test.createNode("Keyword:"+Name);
+		test1=	test.createNode(String.format("%s","<strong style='color:Lime;'>Keyword: "+Name+"</strong>"));
 		i=1;
 		loop = 0;
 		innerloop = 0;
@@ -119,7 +119,7 @@ public class Logs
 	
 	public void EXTENT_FAIL(String data)
 	{
-		if(test1!=null) test1.log(Status.FAIL,"Step: "+StepData+" Is Failed "+data);
+		if(test1!=null) test1.log(Status.FAIL,String.format("%s","<br /><br />"+"Step: "+StepData+" Is Failed "+"<br/><br />"+data));
 		else 
 			{
 			test1 = test;
@@ -149,7 +149,7 @@ public class Logs
 	{
 		loop = loop +1;
 		innerloop = 0;
-		test1 = test2.createNode("Loop"+loop+": "+data);
+		test1 = test2.createNode(String.format("%s","<strong style='color:Lime;'>Loop"+loop+": "+data+"</strong>"));
 		test1.info(MarkupHelper.createLabel(Caption, ExtentColor.PINK));
 		test3 = test1;
 	}
@@ -157,7 +157,7 @@ public class Logs
 	public void InnerLoopIndex(String data,String Caption)
 	{
 		innerloop++;
-		test1 = test3.createNode("InnerLoop"+innerloop+": "+data);
+		test1 = test3.createNode(String.format("%s","<strong style='color:Lime;'>InnerLoop"+innerloop+": "+data+"</strong>"));
 		test1.info(MarkupHelper.createLabel(Caption, ExtentColor.PINK));
 	}
 }

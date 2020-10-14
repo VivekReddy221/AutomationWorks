@@ -5,8 +5,7 @@
     <classes>
       <class name="TestCases.Login_Logout">
         <methods>
-          <include name="Login"/>
-          <include name="Login_Logout"/>
+          <include name="CreateAnAppWithText_Number"/>
         </methods>
       </class> <!-- TestCases.Login_Logout -->
     </classes>

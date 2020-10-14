@@ -101,46 +101,40 @@ public class StepBase
 		
 		if(action!=null && elementName!=null && testData!=null && keyword=="NO" )
 		{
-			if(action=="input")
-			{
-			 log.EXTENT_INFO("-- "+Des+"["+elementName+"]"+" With Test Data "+"["+TestData+"]");
-			}
-			else if(action=="attachTheImage")
-			{
-			log.EXTENT_INFO("-- "+Des+" From The Location"+ System.getProperty("user.dir")+"\\"+TestData);
-			} 
-			else if(action=="dropAndDrop")
-			{
-				log.EXTENT_INFO("-- "+Des+"["+elementName+"]"+" At Location "+"["+Location+"]");
-				log.EXTENT_INFO("-- "+"Dragging An Element ["+elementName+"] From "+Location+" To ="+Location1);
-			}
-			else if(action=="click")
-			{
-				 log.EXTENT_INFO("-- "+Des+"["+elementName+"]");
-			}
-			
-			
-			if(elementName.contains(";//"))
+
+			if(elementName.contains(";//")||elementName.contains(";(//"))
 			{
 				String data[] =  new StringClsUtil().SplitData(elementName);
 				elementName = data[0];
 				Location = data[1];
 			} 
+			
 			log._INFO("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
 			switch(action)
 			{
-			case "input": gen.input(elementName, Location, TestData); 
+			case "input": log.EXTENT_INFO("-- "+Des+"["+elementName+"]"+" With Test Data "+"["+TestData+"]");
+						 gen.input(elementName, Location, TestData); 
 						 break;
-			case "click":gen.click(elementName, Location);
+						 
+			case "click": log.EXTENT_INFO("-- "+Des+"["+elementName+"]");
+						 gen.click(elementName, Location);
 						 break;
-			case "verify": gen.verify(elementName, Location);
+						 
+			case "verify": log.EXTENT_INFO("-- "+Des+"["+elementName+"]");
+						  gen.verify(elementName, Location);
 			 			 break;
+			 			 
 			case "select": gen.select(elementName,Location, TestData);
 						 break;
-			case "dragAndDrop":gen.dropAndDrop(elementName, Location, Location1);
+						 
+			case "dragAndDrop": log.EXTENT_INFO("-- "+"Dragging An Element ["+elementName+"] To "+ "["+elementName1+"]");
+								gen.dropAndDrop(elementName, Location, Location1);
 						 break;
-			case "attachTheImage": gen.attachTheImage(TestData);
+						 
+			case "attachTheImage": log.EXTENT_INFO("-- "+Des+" From The Location"+ System.getProperty("user.dir")+"\\"+TestData);
+								gen.attachTheImage(TestData);
 						break;
+						
 			case "softAssert" : gen.softAssert(Location, TestData);
 						break;
 			default: {
@@ -164,6 +158,8 @@ public class StepBase
 			case "createAnApp":spec.createAnApp(testData);
 						 break;
 			case "addControls_setProprties":spec.addControls_setProprties(testData);
+						 break;
+			case "activateApp":spec.activateApp();
 						 break;
 			case "addRecords": spec.addRecords(testData);
 						 break;

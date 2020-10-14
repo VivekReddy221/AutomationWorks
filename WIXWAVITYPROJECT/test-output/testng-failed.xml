@@ -8,7 +8,7 @@
     <classes>
       <class name="TestCases.Login_Logout">
         <methods>
-          <include name="Login_Logout"/>
+          <include name="CreateAnAppWithNumbersControl"/>
         </methods>
       </class> <!-- TestCases.Login_Logout -->
     </classes>

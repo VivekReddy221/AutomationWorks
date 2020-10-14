@@ -58,7 +58,6 @@ public class Generics
 							co.addArguments("start-maximized");
 							//co.addArguments("headless");
 							driver = new ChromeDriver(co);
-							
 						    break;
 			case "Firefox" :log._INFO("*************************************************************************************************************************************************************");
 							log._INFO("**********************************************************INITIALIZING FIREFOX BROWSER************************************************************************");
@@ -82,9 +81,12 @@ public class Generics
 		log._INFO("Setting ImplicityTimeOut To "+IMPLICITY_TIME_OUT);
 		driver.manage().timeouts().implicitlyWait(IMPLICITY_TIME_OUT,TimeUnit.SECONDS);
 		
+		long time;
+		time = System.currentTimeMillis();
 		log._INFO("Navigating To "+URL);
 		driver.get(URL);
 		log._INFO("Navigated To "+URL+" Successfully");
+		log._INFO("Time Taken To Load The URL["+URL+"] Is: "+(System.currentTimeMillis()-time)/1000 +"Seconds");
 		}
 	}
 	
